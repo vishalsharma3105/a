@@ -1,0 +1,1 @@
+This is an implementation of the Ecmascript 6 involving classes built for internal evaluation.
