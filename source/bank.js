@@ -15,10 +15,9 @@ class SavingsAccount{
           customer.balance = bal
 
    }
-        var  withdraw = function(x) {
-
+        function  withdraw(x) {
              return customer.balance-x
-   }
+      }
 }
 
 module.exports = {
