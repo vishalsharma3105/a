@@ -15,10 +15,10 @@ class SavingsAccount{
           customer.balance = bal
 
    }
-    const withdraw = (x) => {
+    var withdraw = (x) => {
 
           return customer.balance-x
-  }
+   }
 }
 
 module.exports = {
