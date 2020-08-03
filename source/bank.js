@@ -15,9 +15,9 @@ class SavingsAccount{
           customer.balance = bal
 
    }
-    var withdraw = (x) => {
+        var  withdraw = function(x) {
 
-          return customer.balance-x
+             return customer.balance-x
    }
 }
 
