@@ -16,9 +16,12 @@ class SavingsAccount{
 
    }
           withdraw(x) {
+
+            console.log("withdraw balance",customer.balance-x);
              return customer.balance-x
       }
        deposit(x) {
+         console.log("deposit balance",customer.balance+x);
              return customer.balance+x
       }
 }
