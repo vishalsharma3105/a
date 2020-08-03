@@ -18,6 +18,9 @@ class SavingsAccount{
           withdraw(x) {
              return customer.balance-x
       }
+       deposit(x) {
+             return customer.balance+x
+      }
 }
 
 module.exports = {
