@@ -9,13 +9,16 @@ class SavingsAccount{
 
    constructor(name,acctID, mob, bal){
 
-        customer.mob_no = "1111";
+          customer.name = name;
+          customer.id = acctID;
+          customer.mob_no = mob;
+          customer.balance = bal
 
-    }
-  //   withdraw = (x) => {
+   }
+    withdraw = (x) => {
 
-  //         return this.bal-x
-  // }
+          return customer.balance-x
+  }
 }
 
 module.exports = {
