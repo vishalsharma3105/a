@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
-<testsuite name="PhantomJS 2.1.1 (Linux 0.0.0)" package="test" timestamp="2020-08-03T19:12:34" id="0" hostname="workspaceqt2f2ayell5qxk7a.ws-6c9b7ff5dd-gz2pb" tests="3" errors="1" failures="3" time="0.002">
+<testsuite name="PhantomJS 2.1.1 (Linux 0.0.0)" package="test" timestamp="2020-08-03T19:15:04" id="0" hostname="workspaceqt2f2ayell5qxk7a.ws-6c9b7ff5dd-gz2pb" tests="3" errors="1" failures="3" time="0.001">
   <properties>
     <property name="browser.fullName" value="Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"/>
   </properties>
-  <testcase name="withdraw should return the balance after withdraw operation" time="0.002" classname="test.withdraw">
+  <testcase name="withdraw should return the balance after withdraw operation" time="0.001" classname="test.withdraw">
     <failure type="">TypeError: Attempted to assign to readonly property. in test-context.js (line 9401)
 SavingsAccount@test-context.js:9401:30
 test-context.js:9345:43
