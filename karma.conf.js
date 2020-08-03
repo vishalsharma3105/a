@@ -12,7 +12,7 @@ module.exports = function(config) {
             outputFile: 'test.xml',
             suite: 'test'
         },
-        browsers: ['Firefox'],
+        browsers: ['PhantomJS'],
         files: [
             { pattern: 'test-context.js', watched: false }
         ],
